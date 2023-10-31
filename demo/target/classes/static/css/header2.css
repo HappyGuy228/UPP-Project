@@ -1,0 +1,255 @@
+.header-body {
+    position: relative;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #000;
+    min-width: 320px;
+    overflow-x: hidden;
+    height: auto;
+    /*padding: 50px 0px;*/
+}
+
+/*header {
+    position: relative;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #000;
+    min-width: 320px;
+    overflow-x: hidden;
+    height: auto;
+}*/
+
+/*.header{
+    display: flex;
+    align-items:
+}*/
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+}
+
+.navbar .header-container {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-menu {
+    list-style-type: none;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.navbar-menu li {
+    display: inline-block;
+}
+
+.navbar-menu li a {
+    display: inline-block;
+    color: #000;
+    opacity: .6;
+    text-decoration: none;
+    padding: 15px;
+    transition: all .07s ease-in-out;
+}
+
+.navbar-menu li a:hover {
+    opacity: 1;
+}
+
+.navbar-wrap {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+    color: #000;
+    margin-left: 40px;
+}
+
+.navbar-brand:hover {
+    color: coral;
+    transition: all .07s ease-in-out;
+}
+
+.submenu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    padding: 0.5rem;
+    background: antiquewhite;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.submenu1 {
+    padding: 0.5rem;
+    display: none;
+    background: orange;
+    flex-direction: column;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    width: 250px;
+    border-radius: 0.5rem;
+}
+
+li:hover>.submenu {
+    display: flex;
+}
+
+li:hover>.submenu1 {
+    display: flex;
+}
+
+.catalog-menu {
+    margin-right: 1000px;
+}
+
+.search-box {
+    display: flex;
+    position: absolute;
+    height: 40px;
+    padding: 10px;
+    margin-left: 850px;
+}
+
+.search-txt {
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    outline: none;
+    background: none;
+    padding: 0;
+    color: #000;
+    font-size: 16px;
+}
+
+.image-lupa {
+    display: flex;
+    position: absolute;
+    height: 40px;
+    margin-left: 1020px;
+}
+
+/* ul {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+}
+
+li {
+    position: relative;
+}
+
+
+a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    background-color: #ccc;
+    padding: 1em;
+    width: 170px;
+    white-space: nowrap;
+}
+
+a:hover {
+    background-color: pink;
+}
+
+.menu--vert {
+    flex-direction: column;
+    width: 200px;
+}
+
+.menu--vert .submenu {
+    top: 100%;
+    left: 100%;
+}
+
+.submenu .submenu1 {
+    top: 0;
+    left: 100%;
+}
+
+
+.image-lupa {} */
+
+
+
+
+
+
+
+
+
+
+
+/*body {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    display: flex;
+    min-height: 100vh;
+}*/
+
+/* Фиксируем позицию body, которую меняет панель гугла*/
+
+.page_fix {
+    top: 0 !important;
+    position: static !important;
+}
+
+/* Прячем панель гугла */
+
+.skiptranslate {
+    display: none !important;
+}
+
+/* language */
+
+.language {
+    position: fixed;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.language__img {
+    margin: 2px;
+    cursor: pointer;
+    opacity: .5;
+}
+
+.language__img:hover,
+.language__img_active {
+    opacity: 1;
+}
+
+/* content */
+
+.content {
+    text-align: center;
+    margin: auto;
+}
+
+#google_translate_element{width:300px;float:right;text-align:right;display:block}
+.goog-te-banner-frame.skiptranslate { display: none !important;}
+body { top: 0px !important; }
+#goog-gt-tt{display: none !important; top: 0px !important; }
+.goog-tooltip skiptranslate{display: none !important; top: 0px !important; }
+.activity-root { display: hide !important;}
+.status-message { display: hide !important;}
+.started-activity-container { display: hide !important;}
