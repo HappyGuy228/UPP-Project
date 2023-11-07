@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    <?php include "css/main_page_style.css" ?>
+    <?php include "css/header.css" ?>
+    <?php include "css/footer.css" ?>
+    </style>
     <title>Главная страница</title>
-    <link rel="stylesheet" type="text/css" href="css/main_page_style.css">
+    
 </head>
+
+<?php require "blocks/header.php" ?>
+
 <body>
-    <div id="header">
+    <!-- <div id="header">
         <h1>Header</h1>
-    </div>
+    </div> -->
     <div id="wrapper">
         <!-- <div id="sidebar">
             <ul>
@@ -54,9 +64,12 @@
             </div>
         </div>
     </div>
-    <div id="footer">
+    <!-- <div id="footer">
         <p>&copy; 2023 Footer. Все права защищены.</p>
-    </div>
+    </div> -->
 </body>
+
+<?php require "blocks/footer.php" ?>
+
 </html>
 
