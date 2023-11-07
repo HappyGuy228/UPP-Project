@@ -8,13 +8,13 @@ body {
     overflow-x: hidden;
 }
 
-#header {
+/*#header {
     background-color: #333;
     color: #fff;
     padding: 10px;
     text-align: center;
     width: 100%;
-}
+}*/
 
 #wrapper {
     display: flex;
@@ -39,7 +39,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 #best-sellers {
@@ -108,13 +108,13 @@ body {
     margin: 0 10px; /* Добавим отступы между товарами */
 }
 
-#footer {
+/*#footer {
     background-color: #333;
     color: #fff;
     padding: 10px;
     text-align: center;
     width: 100%;
-}
+}*/
 
 #sidebar ul {
     padding: 0;
@@ -134,8 +134,4 @@ body {
     align-items: center;
     justify-content: left;
     height: 100%;
-}
-
-object {
-    padding-right: 19px;
 }
