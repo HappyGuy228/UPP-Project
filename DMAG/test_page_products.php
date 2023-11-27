@@ -28,7 +28,7 @@
     <div class="basket"></div>          <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
 
     <!-- Проверка наличия в localStorage элементов из массива cart, то есть простыми словами есть ли уже в нашей корзине какие-нибудь товары -->
-    <script type='text/javascript' src="js/basket.js"></script>
+    <script type='text/javascript' src="js/test_basket.js"></script>
     <script>
         loadBasket();
     </script>
@@ -48,7 +48,7 @@
         <button class="button4" type="button">Перейти в корзину</button>
 </body>
 
-<script type='text/javascript' src="js/basket.js"></script>
+<script type='text/javascript' src="js/test_basket.js"></script>
 
 <?php require "blocks/footer.php" ?>
 
