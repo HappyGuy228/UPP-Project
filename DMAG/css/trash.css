@@ -4,13 +4,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-header {
-    height: 70px;
-    background-color: #4CAF50; /* зеленая палитра */
-    color: #fff;
-    text-align: center;
-    line-height: 70px;
-}
 
 .container {
     display: flex;
