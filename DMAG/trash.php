@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Корзина</title>
-    <link rel="stylesheet" href="css/trash.css">
+    <style><?php include "css/trash.css" ?>
+    <?php include "css/header.css" ?>
+    <?php include "css/footer.css" ?></style>
 </head>
+
+<?php require "blocks/header.php" ?>
 <body>
-
-    <header>Заголовок страницы</header>
-
     <div class="container">
         <div class="cart">
             <div class="product-card" id="product1">
@@ -94,4 +95,5 @@
     </script>
 
 </body>
+<?php require "blocks/footer.php" ?>
 </html>
