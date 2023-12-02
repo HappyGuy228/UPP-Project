@@ -38,6 +38,11 @@ const langArr = {
         "en": "Sign in",
     },
 
+    "login-text": {
+        "ru": "Войти",
+        "en": "Sign in",
+    },
+
     "login-sign_in": {
         "ru": "Вход",
         "en": "Sign in",
@@ -48,7 +53,7 @@ const langArr = {
         "en": "Email",
     },
     
-    "login-password": {
+    "input-login-password": {
         "ru": "Пароль1",
         "en": "Password1",
     },
@@ -77,22 +82,22 @@ const langArr = {
         "en": "Registration",
     },
 
-    "registration-name": {
+    "input-registration-name": {
         "ru": "Имя",
         "en": "Name",
     },
 
-    "registration-email": {
+    "input-registration-email": {
         "ru": "Email",
         "en": "Email",
     },
 
-    "registration-password": {
+    "input-registration-password": {
         "ru": "Пароль",
         "en": "Password",
     },
 
-    "registration-accept_password": {
+    "input-registration-accept_password": {
         "ru": "Подтверждение пароля",
         "en": "Accept password",
     },
