@@ -27,7 +27,7 @@
             <button  type="button" class="register-button">Зарегистрироваться</button>
         </form>
     </div>
-    <script type='text/javascript' src="js/app-test.js"></script>
+    <script type='text/javascript' src="js/app.js"></script>
 </body>
 
 <?php require "blocks/footer.php" ?>
