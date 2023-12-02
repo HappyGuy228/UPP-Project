@@ -83,6 +83,12 @@
                         </ul>
                     </li>
 
+                    <li>
+                        <select class="change-lang">
+                            <option value="ru" selected>RU</option>
+                            <option value="en">EN</option>
+                        </select>
+                    </li>
 
 
                     <li>
