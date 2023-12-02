@@ -4,14 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--<link rel="stylesheet" th:href="@{css/registration.css}">-->
-    <title th:utext="Зарегистрироваться"></title>
-
-    <!--<div style="text-align: right;padding:5px;margin:5px 0px;background:#ccc;">
-        <a th:href="@{/registration?lang=en}">Login (English)</a>
-        &nbsp;|&nbsp;
-        <a th:href="@{/registration?lang=ru}">Login (Russian)</a>
-    </div>                                                                          ЕЩЁ ПОНАДОБИТСЯ--> 
 
     <style>
     <?php include "css/registration1.css" ?>
@@ -20,19 +12,22 @@
     </style>
 </head>
 
+<title class="registration-title">Зарегистрироваться</title>
+
 <?php require "blocks/header.php" ?>
 
 <body class="body">
     <div class="container">
-        <h1 text="Регистрация"></h1>
+        <h1 class="registration-registration">Регистрация</h1>
         <form id="register" class="input-group">
-            <input type="text" placeholder="Имя" required>
-            <input type="text" placeholder="Email" required>
-            <input type="password" placeholder="Пароль" required>
-            <input type="text" placeholder="Подтверждение пароля" required>
-            <button type="button" class="register-button">Зарегистрироваться</button>
+            <input class="input-registration-name" type="text" placeholder="Имя" required>
+            <input class="input-registration-email" type="text" placeholder="Email" required>
+            <input class="input-registration-password" type="password" placeholder="Пароль" required>
+            <input class="input-registration-accept_password" type="text" placeholder="Подтверждение пароля" required>
+            <button  type="button" class="register-button">Зарегистрироваться</button>
         </form>
     </div>
+    <script type='text/javascript' src="js/app-test.js"></script>
 </body>
 
 <?php require "blocks/footer.php" ?>
