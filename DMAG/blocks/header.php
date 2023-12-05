@@ -122,12 +122,21 @@
 
 
 
-                    <?php 
+                    <!--<php 
                         if (isset($_COOKIE["role"])):
                             if (($_COOKIE["role"] == "user")): ?>
                         <li><a href="/account.php">Кабинет пользователя</a></li>
-                    <?php endif; else: ?>
+                    <php endif; else: ?>
                         <li><a href="/login.php">Войти</a></li>
+                    <php  endif;?>-->
+
+
+                    <?php 
+                        if (isset($_SESSION["user"]["role"])):
+                            if (!empty($_SESSION["user"]["role"])): ?>
+                        <li><a href="/account.php">Кабинет пользователя</a></li>
+                    <?php endif; else: ?>
+                        <li><a href="/login.php" class="header-sign_in">Войти</a></li>
                     <?php  endif;?>
 
 
