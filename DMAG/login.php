@@ -85,7 +85,7 @@
         </form>
         
     </div>
-    <script type='text/javascript' src="js/app-test.js"></script>
+    <script type='text/javascript' src="js/app.js"></script>
     
 </body>
 
