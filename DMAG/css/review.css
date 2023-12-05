@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+
+
+.reviews-container {
+    width: 33.33%;
+    max-width: 900px; /* Максимальная ширина контейнера */
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    width: 100%; /* Ширина контейнера для отзыва всегда 100% */
+}
+
+.review:hover {
+    transform: scale(1.05);
+}
+
+.review img {
+    border-radius: 50%;
+    float: left;
+    margin-right: 15px;
+    width: 50px; /* Новый размер для фото профиля */
+    height: 50px; /* Новый размер для фото профиля */
+}
+
+.review-content {
+    padding: 15px;
+}
+
+.review-author {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.review-date {
+    color: #777;
+    font-size: 0.8em;
+}
+
+.review-text {
+    margin-top: 10px;
+}
+
+.leave-review-button {
+    display: block;
+    margin: 20px auto;
+    padding: 20px 40px; /* Новые размеры для кнопки */
+    font-size: 18px; /* Новый размер текста на кнопке */
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.leave-review-button:hover {
+    background-color: #555;
+    transform: scale(1.03);
+}
