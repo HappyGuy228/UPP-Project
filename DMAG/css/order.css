@@ -1,0 +1,114 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+.container {
+  width: 50%;
+  margin: 10px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.centered-options {
+  display: flex;
+  justify-content: center;
+}
+
+.delivery-options,
+.payment-options {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.delivery-options button,
+.payment-options button {
+  flex: 1;
+  margin-right: 5px; /* Adjust the margin as needed */
+}
+
+.option-btn.larger-font {
+  font-size: 1.2em;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.option-btn.active {
+  background-color: #333;
+  color: #fff;
+}
+
+
+.details {
+  margin-top: 10px;
+}
+
+.details select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.hidden {
+  display: none;
+}
+
+.total-section {
+  text-align: center;
+}
+
+#totalAmount {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.submit-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 15px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s, color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #333;
+  color: #fff;
+  transform: scale(1.03);
+}
