@@ -126,7 +126,7 @@
     <script type='text/javascript' src="js/translate1.js"></script>
 </body>
 
-<script type='text/javascript' src="js/test_basket1.js">loadBasket();</script>
+<script type='text/javascript' src="js/test_basket.js">loadBasket();</script>
 
 <?php require "blocks/footer.php" ?>
 
