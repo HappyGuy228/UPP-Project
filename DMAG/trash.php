@@ -93,7 +93,7 @@
         
     </div>
     
-    <script type='text/javascript' src="js/test_basket1.js"></script>
+    <script type='text/javascript' src="js/test_basket.js"></script>
     <script>
         loadBasket();
     </script>
