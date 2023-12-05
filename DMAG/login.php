@@ -76,7 +76,7 @@
         <form id="login" class="input-group" method="POST">
             <input type="text" class="login-email" placeholder="Email" id="email" name="email" required />
             <input type="password" class="input-login-password" placeholder="Пароль" id="password" name="password" required />
-            <button class="login-button" type="submit" onclick="window.location.href='/login1.php'">Войти</button>
+            <button class="login-button" type="submit" onclick="window.location.href='/login.php'">Войти</button>
             <ul>
                 <?php foreach($errors as $error): ?>
                     <li><?= $error ?></li>
