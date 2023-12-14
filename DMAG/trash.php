@@ -84,7 +84,7 @@
 
     <div class="container">
         <div class="cart" id="all_products_in_trash">
-            <script type='text/javascript' src="js/test_basket1.js"></script>
+            <script type='text/javascript' src="js/test_basket.js"></script>
             <script>
                 showBasket();
             </script>
@@ -93,7 +93,7 @@
         
     </div>
     
-    <script type='text/javascript' src="js/test_basket1.js"></script>
+    <script type='text/javascript' src="js/test_basket.js"></script>
     <script>
         loadBasket();
     </script>
