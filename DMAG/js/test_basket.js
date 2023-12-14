@@ -55,8 +55,9 @@ function showBasket(){
     }
 
     var amount_elements1 = "There " + amount_elements + " elements";
-
-    products += '<button class="checkout-btn" onclick="checkout()">Перейти к оформлению</button>';
+    if (amount_elements > 0){
+        products += '<button class="checkout-btn" onclick="checkout()">Перейти к оформлению</button>';
+    }
 
     document.getElementById("all_products_in_trash").innerHTML = products;
     $('.basket2').html(amount_elements1);
