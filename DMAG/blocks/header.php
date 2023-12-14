@@ -162,6 +162,8 @@
         </div>
     </nav>
 </header>
+
+<script type='text/javascript' src="js/google-translate.js"></script>
 </body> <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
 
 </html>
