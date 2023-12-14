@@ -23,7 +23,6 @@
 <?php require "blocks/header.php" ?>
 
 <body class="body">
-    <h1>Делайте страницу)))</h1>
 
     <div class="basket1">
         <div class="basket2">Hello</div>
