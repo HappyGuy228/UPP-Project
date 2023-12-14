@@ -88,12 +88,12 @@
             <script>
                 showBasket();
             </script>
-            <button class="checkout-btn" onclick="checkout()">Перейти к оформлению</button>
+            <!--<button class="checkout-btn" onclick="checkout()">Перейти к оформлению</button>-->
         </div>
         
     </div>
     
-    <script type='text/javascript' src="js/test_basket.js"></script>
+    <script type='text/javascript' src="js/test_basket1.js"></script>
     <script>
         loadBasket();
     </script>
