@@ -5,8 +5,8 @@
         header('Location: account.php');
     }
 
-    if(isset($_POST['login-button'])){
-        if ($_POST['login-email'] == '' || $_POST['input-login-password'] == ''){
+    if(isset($_POST['log-but'])){
+        if ($_POST['email'] == '' || $_POST['password'] == ''){
             $errors[] = 'Вы ввели не все данные';
         }
         else{
@@ -20,24 +20,19 @@
             if (!$conn) {
                 die('Ошибка подключения к базе данных:' . mysqli_connect_error());
             }
-            else{
-                echo "Есть подключение к БД <br />";
-            }
 
-            $Email = $_POST['login-email'];
-            $Password = $_POST['input-login-password'];
-            $md5pass = md5($Password);
-
-            $query = "SELECT * FROM user where email = '$Email' AND password = '$md5pass'";
+            $Email = $_POST['email'];
+            $Password = $_POST['password'];
+            $query = "SELECT * FROM user where email = '$Email' AND password = '$Password'";
 
             $result = $conn->query($query);
             if ($result->num_rows == 1) {
 
                 $data_from_db = $result->fetch_assoc();
                 $Role = $data_from_db["role"];
-                $Name = $data_from_db["name"];
+                $Name = $data_from_db["user_name"];
                 $_SESSION['user'] = ['email' => $_POST['email'], 'role' => $Role, 'name' => $Name];
-                header('Location: main_window.php');
+                header('Location: account.php');
                 
             } else {
                 $errors[] = 'Введен неверный email или пароль!';
@@ -105,7 +100,7 @@
         <form id="login" class="input-group" method="POST">
             <input type="text" class="login-email" placeholder="Email" id="email" name="email" required />
             <input type="password" class="input-login-password" placeholder="Пароль" id="password" name="password" required />
-            <button class="login-button" type="submit" onclick="window.location.href='/login.php'">Войти</button>
+            <button class="login-button" type="submit" name="log-but" onclick="window.location.href='/login.php'">Войти</button>
             <ul>
                 <?php foreach($errors as $error): ?>
                     <li><?= $error ?></li>
