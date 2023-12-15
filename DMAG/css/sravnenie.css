@@ -4,13 +4,19 @@ body {
     font-family: Arial, sans-serif;
 }
 
-header {
+.page-title {
+    width: 50%;
     height: 70px;
     background-color: #333;
     color: white;
     text-align: center;
     line-height: 70px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+
 }
+
 
 .container {
     display: flex;
