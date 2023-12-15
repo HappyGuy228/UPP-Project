@@ -3,12 +3,7 @@
 
 <?php
 
-// if ($_SESSION['user']['role'] == 'admin'){
-//     header("Location: main_page.php");
-//     exit();
-// }
-
-if (1 != 1){
+if ($_SESSION['user']['role'] != 'admin'){
     header("Location: main_page.php");
     exit();
 }
