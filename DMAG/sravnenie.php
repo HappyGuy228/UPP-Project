@@ -9,11 +9,7 @@
 </head>
 <?php require "blocks/header.php" ?>
 <body>
-
-    <header>
-        <h1>Сравнение товаров</h1>
-    </header>
-
+        <h1 class="page-title">Сравнение товаров</h1>
     <div class="container">
         <div class="product-card">
             <div class="product-image-container">
