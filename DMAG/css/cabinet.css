@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 70px 20px 20px 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.user-container {
+    width: 33%;
+    margin: 0 auto;
+    background-color: #cccccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.user-info {
+    text-align: center;
+    font-size: 1.6em;
+}
+
+.user-avatar {
+    width: 130px;
+    height: 130px;
+    background-color: #999999;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    overflow: hidden; 
+}
+
+.user-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.user-email,
+.user-phone,
+.user-address {
+    margin-bottom: 5px;
+}
+
+span {
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.logout-btn {
+    width: 15%; /* Set to half the width of the user-container */
+    margin: 0 auto; /* Center the button horizontally */
+    padding: 10px;
+    background-color: #999999;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    font-size: 1.23em;
+    margin-top: 10px;
+}
+
+.logout-btn:hover {
+    background-color: #999978;
+    transform: scale(1.05);
+}
