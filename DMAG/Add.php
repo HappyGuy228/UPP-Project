@@ -3,9 +3,9 @@
    session_start();
    $message = "";
   
-//    if($_SESSION['user']['role'] != 'admin'){
-//      header('Location: main_page.php');
-//    }
+    if($_SESSION['user']['role'] != 'admin'){
+      header('Location: main_page.php');
+   }
 
 //    if(isset($_POST['add-product'])){
 //     echo "Кнопка работает";
