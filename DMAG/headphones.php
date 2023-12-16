@@ -1,4 +1,4 @@
-<?php 
+<!-- <php 
   
   include "include/db.php";
 
@@ -6,7 +6,7 @@
 
   $products = mysqli_fetch_assoc($result);
 
- ?>
+ ?> -->
 
 
 
@@ -22,7 +22,7 @@
     <!-- <link href="css/product_page_style.css" rel="stylesheet"> -->
     <meta name="robots" content="noindex,follow" />
     <style>
-    <?php include "css/product_page_style.css" ?>
+    <?php include "css/headphones.css" ?>
     <?php include "css/header.css" ?>
     <?php include "css/footer.css" ?>
     </style>
@@ -36,9 +36,9 @@
 
       <!-- Left Column / Headphones Image -->
       <div class="left-column">
-        <img data-image="black" src="img/goods/black.png" alt="">
-        <img data-image="blue" src="img/goods/blue.png" alt="">
-        <img data-image="red" class="active" src="img/goods/red.png" alt="">
+        <img data-image="black" src="img/headphones/black.png" alt="">
+        <img data-image="blue" src="img/headphones/blue.png" alt="">
+        <img data-image="red" class="active" src="img/headphones/red.png" alt="">
       </div>
 
 
@@ -101,10 +101,10 @@
 
     <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
-    <script src="js/product_page_script.js" charset="utf-8"></script>
-    <script src="js/test_basket.js" type="text/javascript"></script>
+    <script src="js/headphones.js" charset="utf-8"></script>
+    <script src="js/test_basket_for_add_products.js" type="text/javascript"></script>
   </body>
 
-<?php require "blocks/footer.php" ?>
+<!-- <php require "blocks/footer.php" ?> -->
   
 </html>
